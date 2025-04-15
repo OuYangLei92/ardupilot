@@ -174,6 +174,9 @@ public:
 #if AP_RANGEFINDER_JRE_SERIAL_ENABLED
         JRE_Serial = 41,
 #endif
+#if AP_RANGEFINDER_NANORADAR_SERIAL_ENABLED
+        Nanoradar_Serial = 45,
+#endif
 #if AP_RANGEFINDER_SIM_ENABLED
         SIM = 100,
 #endif
